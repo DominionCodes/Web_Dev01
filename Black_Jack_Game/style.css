@@ -65,10 +65,11 @@ body {
 
 .Buttons {
     margin-top: 1.5rem;
+    font-weight: 400;
+     font-size: 13px;
 }
 #startGM{
     background-color: var(--accent-color);
-    font-size: 13px;
     font-family: monospace;
     color: var(--background-color);
     padding: 10px 25px;
@@ -78,7 +79,6 @@ body {
 }
 #newCard{
     background-color: var(--accent-color);
-    font-size: 13px;
     font-family: monospace;
     color: var(--background-color);
     padding: 10px 25px;

@@ -12,7 +12,7 @@ let hasBlackjack = false
 
 //Generating a Random number that auto change it's self.
 function RandomNumber() {
-    let num = Math.floor(Math.random() * 20) + 1
+    let num = Math.floor(Math.random() * 16) + 1
     // the if statement prevent the number from exceed the 10 or 11
     if (num > 11) {
         return 10
