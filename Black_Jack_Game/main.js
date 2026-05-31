@@ -1,6 +1,9 @@
 let messageGM = document.querySelector('.message')
 let cardGM = document.querySelector('.cards')
 let SumGM = document.querySelector('.Sum')
+let mAomunt = document.querySelector('.money')
+let userCash = prompt('To Start game enter the amount to bet...');
+
 
 let TotalSum = 0
 let firstCard = 0
@@ -69,3 +72,12 @@ function NewCard() {
 
     }
 }
+
+if (TotalSum < 20) {
+    mAomunt = '$1000'
+} else if (TotalSum == 21) {
+    mAomunt = '$5000'
+} else {
+    mAomunt = '$1'
+}
+mAomunt.textContent += userCash;
